@@ -28,9 +28,9 @@ ContentProvider 取資料的範例 ---  以 Contacts 為例 (原始碼連結)
 
 一.  註冊 permission, 取得Contacts 的使用權
 
- <uses-permission android:name="android.permission.GET_ACCOUNTS" />  
- <uses-permission android:name="android.permission.READ_CONTACTS" />  
- <uses-permission android:name="android.permission.WRITE_CONTACTS" />  
+ uses-permission android:name="android.permission.GET_ACCOUNTS"
+ uses-permission android:name="android.permission.READ_CONTACTS"  
+ uses-permission android:name="android.permission.WRITE_CONTACTS"  
 
 二. 透過 Provider 取得 cursor
 cursor 是Android 裡用來取得資料的物件,  取得 cursor 後就能查找我們要的任一筆資料.
